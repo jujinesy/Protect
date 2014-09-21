@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Protect", "Protect\Protect.vcxproj", "{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticTestApp", "StaticTestApp\StaticTestApp.vcxproj", "{C6BB3B26-7545-4295-8525-3BAA953EAB1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36} = {DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicTestApp", "DynamicTestApp\DynamicTestApp.vcxproj", "{EE380934-D390-45B2-A3DD-CD803D95DE6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36} = {DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}.Debug|Win32.Build.0 = Debug|Win32
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}.Release|Win32.ActiveCfg = Release|Win32
+		{DBAFD2C6-FEF3-4B93-AB0A-C11B0F627D36}.Release|Win32.Build.0 = Release|Win32
+		{C6BB3B26-7545-4295-8525-3BAA953EAB1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6BB3B26-7545-4295-8525-3BAA953EAB1D}.Debug|Win32.Build.0 = Debug|Win32
+		{C6BB3B26-7545-4295-8525-3BAA953EAB1D}.Release|Win32.ActiveCfg = Release|Win32
+		{C6BB3B26-7545-4295-8525-3BAA953EAB1D}.Release|Win32.Build.0 = Release|Win32
+		{EE380934-D390-45B2-A3DD-CD803D95DE6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE380934-D390-45B2-A3DD-CD803D95DE6C}.Debug|Win32.Build.0 = Debug|Win32
+		{EE380934-D390-45B2-A3DD-CD803D95DE6C}.Release|Win32.ActiveCfg = Release|Win32
+		{EE380934-D390-45B2-A3DD-CD803D95DE6C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
