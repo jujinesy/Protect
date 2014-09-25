@@ -10,6 +10,16 @@ TestClass::~TestClass()
 {
 }
 
+void TestClass::Start()
+{
+	std::cout << "Start\n";
+}
+
+void TestClass::Stop()
+{
+	std::cout << "Stop\n";
+}
+
 void TestClass::TestCla()
 {
 	std::cout << "Hello Class\n";

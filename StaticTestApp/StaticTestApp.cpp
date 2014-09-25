@@ -2,8 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "..\Protect\TestC.h"
-#include "..\Protect\TestClass.h"
+#include "..\Protect\dllmain.h"
 #pragma comment(lib, "..\\Debug\\Protect.lib")
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -12,5 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	TestClass Tc;
 	Tc.TestCla();
+
+	getchar();
 	return 0;
 }

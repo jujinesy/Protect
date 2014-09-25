@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\common">
+      <UniqueIdentifier>{2af5862a-69a8-4f1d-ad4f-1206042377bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\common">
+      <UniqueIdentifier>{c92ba747-39ed-493a-b515-339cd990f153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\module">
+      <UniqueIdentifier>{f98be4ca-5746-43c4-b2d6-ea1920ec11fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\module">
+      <UniqueIdentifier>{644c088a-9ae6-4e81-b30d-90f0b971c453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\test">
+      <UniqueIdentifier>{6cde4f93-7765-49ab-b8dc-edffdb2efcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\test">
+      <UniqueIdentifier>{1198dd02-4305-4b50-8e36-1ff603fdb7bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,11 +42,14 @@
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="TestC.h">
+    <ClInclude Include="dllmain.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="TestC.h">
+      <Filter>헤더 파일\test</Filter>
+    </ClInclude>
     <ClInclude Include="TestClass.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -39,10 +60,10 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="TestC.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\test</Filter>
     </ClCompile>
     <ClCompile Include="TestClass.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
